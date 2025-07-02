@@ -88,7 +88,7 @@ export default function Chat() {
       }, 10000);
 
       if (!listening) {
-        if (event.key === "/") {
+        if (event.key === "t") {
           setMessage((prev) => "");
           setListening(true);
         }
